@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StimulationSet>
+<InjectionStim specieID="ACh"  injectionSite="pointA">
+    <onset>              25000             </onset>
+    <duration>           2000              </duration>
+    <rate>                26000            </rate>
+    <end>               27000              </end>
+
+</InjectionStim>
+
+<!-- <InjectionStim specieID="Ca"  injectionSite="pointA"> -->
+<!--     <onset>              5000             </onset> -->
+<!--     <duration>           50              </duration> -->
+<!--     <rate>                3000            </rate> -->
+<!--     <period> 20</period> -->
+<!--     <end>                5100              </end> -->
+<!--     <interTrainInterval>  10000           </interTrainInterval> -->
+<!--     <numTrains>           1               </numTrains> -->
+<!-- </InjectionStim> -->
+
+
+<!-- <InjectionStim specieID="Ca"  injectionSite="pointA"> -->
+<!--     <onset>              26000             </onset> -->
+<!--     <duration>           10              </duration> -->
+<!--     <rate>                5.            </rate> -->
+<!--     <period>             400              </period> -->
+<!--     <end>               27000              </end> -->
+<!--     <interTrainInterval>  10000           </interTrainInterval> -->
+<!--     <numTrains>           1               </numTrains> -->
+<!-- </InjectionStim> -->
+ </StimulationSet> 
