@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Morphology>
+
+
+    <!-- spine morphologies: width for sections along the spine -->
+
+    <!-- <SpineType id="filopodium"> -->
+    <!-- 	<Section width="0.4" at="0.0" regionClass="neck"/> -->
+    <!-- 	<Section width="0.4" at="3.0" regionClass="neck"/> -->
+    	
+    <!-- 	<Section width="0.4" at="3.0"/> -->
+    <!-- </SpineType> -->
+
+
+  <SpineType id="fake">
+  	<Section width="0.05" at="0.00" label="stub"/>
+  	<Section width="0.05" at="0.05" label="pointI"/>
+    </SpineType>
+    <!-- regionClass labels can apply to sections or segments and label regions for applying initial conditaions etc -->
+ 
+
+       
+    <Segment id="seg1" region="axon1" label="stem1">
+	<start x="9.0" y="1.0" z="0.0" r="1."/>
+	<end x="10.5" y="1.0" z="0.0" r="1."/>
+    </Segment>
+     <Segment id="seg2" region="ERmembrane11">
+	<start on="seg1" at="end"/>
+	<end x="11.0" y="1.0" z="0.0" r="1."/>
+    </Segment>
+    <Segment id="seg3" region="ERmembrane12" >
+	<start on="seg2" at="end"/>
+	<end x="11.5" y="1.0" z="0.0" r="1.5"/>
+    </Segment>
+    <Segment id="seg4" region="axon2">
+	<start on="seg3" at="end"/>
+	<end x="12.5" y="1.0" z="0.0" r="2.5"/>
+    </Segment>
+    <Segment id="seg5" region="ERmembrane21">
+	<start on="seg4" at="end"/>
+	<end x="13.0" y="1.0" z="0.0" r="3.0"/>
+    </Segment>
+    <Segment id="seg6" region="ERmembrane22" >
+	<start on="seg5" at="end"/>
+	<end x="13.5" y="1.0" z="0.0" r="2.5"/>
+    </Segment>
+    <Segment id="seg7" region="axon3"  >
+    	<start on="seg6" at="end"/>
+    	<end x="15.5" y="1.0" z="0.0" r="1."  label="pointA"/>
+    </Segment>
+
+   <SpineAllocation id="fake1" spineType="fake" region="axon1"
+		     lengthDensity="1000."/>
+    <SpineAllocation id="fake2" spineType="fake" region="axon2"
+		      lengthDensity="1000."/>
+      <SpineAllocation id="fake3" spineType="fake" region="axon3"
+		       lengthDensity="1000."/>
+       <SpineAllocation id="fake4" spineType="fake" region="ERmembrane11"
+		     lengthDensity="4000."/>
+
+       <SpineAllocation id="fake5" spineType="fake" region="ERmembrane12"
+		     lengthDensity="4000."/>
+       <SpineAllocation id="fake6" spineType="fake" region="ERmembrane21"
+		     lengthDensity="4000."/>
+       <SpineAllocation id="fake7" spineType="fake" region="ERmembrane22"
+		     lengthDensity="4000."/>
+</Morphology>
+
