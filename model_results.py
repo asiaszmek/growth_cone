@@ -22,6 +22,7 @@ if __name__ == '__main__':
     for reg in regions:
         vols[reg] = 0
         voxels[reg] = []
+        
     for reg in regions:
         for i,g in enumerate(grid):
             if regions[g["region"]] in reg:
@@ -47,6 +48,8 @@ if __name__ == '__main__':
                 out[:,0] = f[fi]['output']['__main__']['times']
                 for i,specie in enumerate(species):
                     out[:,i+1] = res[:,voxels[reg],i].sum(axis=1)/vols[reg]/6.022*10
+                    if specie == 'cAMP' or specie == 'PKAc':
+                        print specie,out[:-1000,i+1].mean(),specie,out[:-1000,i+1].mean()**0.5
       
                 np.savetxt(file_dend,out,comments="",header=header)
 
