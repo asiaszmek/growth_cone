@@ -3,45 +3,45 @@
 <StimulationSet>
 <InjectionStim specieID="ACh"  injectionSite="axon1:submembrane">
     <onset>              25000             </onset>
-    <duration>           2000              </duration>
+    <duration>           60000              </duration>
     <rate>                5975            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 <InjectionStim specieID="ACh"  injectionSite="axon2:submembrane">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                3985            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 <InjectionStim specieID="ACh"  injectionSite="axon3:submembrane">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                7968            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 <InjectionStim specieID="ACh"  injectionSite="ERmembrane11:submembrane">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                1991            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 <InjectionStim specieID="ACh"  injectionSite="ERmembrane12:submembrane">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                1991            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 <InjectionStim specieID="ACh"  injectionSite="ERmembrane21:submembrane">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                1991            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 <InjectionStim specieID="ACh"  injectionSite="ERmembrane22:submembrane">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                1991            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <!-- <InjectionStim specieID="ACh"  injectionSite="pointA"> -->
@@ -60,7 +60,7 @@
 <!--     <duration>           10              </duration> -->
 <!--     <rate>                5.            </rate> -->
 <!--     <period>             400              </period> -->
-<!--     <end>               27000              </end> -->
+<!--     <end>               85000              </end> -->
 <!--     <interTrainInterval>  10000           </interTrainInterval> -->
 <!--     <numTrains>           1               </numTrains> -->
 <!-- </InjectionStim> -->
