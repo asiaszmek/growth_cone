@@ -39,9 +39,9 @@
   <Specie name="pmcaCa" id="pmcaCa" kdiff="0" kdiffunit="mu2/s"/>
   <Specie name="ncxCa" id="ncxCa" kdiff="0" kdiffunit="mu2/s"/>
   
-  <Specie name="Cam"            id="Cam"           kdiff="0.5"    kdiffunit="mu2/s"/>
-  <Specie name="CamCa2"        id="CamCa2"       kdiff="0.5"    kdiffunit="mu2/s"/>
-  <Specie name="CamCa4" id="CamCa4" kdiff="0.5" kdiffunit="mu2/s"/>
+  <Specie name="Cam"            id="Cam"           kdiff="11"    kdiffunit="mu2/s"/>
+  <Specie name="CamCa2"        id="CamCa2"       kdiff="11"    kdiffunit="mu2/s"/>
+  <Specie name="CamCa4" id="CamCa4" kdiff="11" kdiffunit="mu2/s"/>
 
   <Specie name="CK" id="CK" kdiff="0.1" kdiffunit="mu2/s"/>
   <Specie name="CKCamCa4" id="CKCamCa4" kdiff="0.1" kdiffunit="mu2/s"/>
@@ -334,7 +334,7 @@
     	<Reactant specieID="CK"/>
     	<Product specieID="CKCamCa2"/>
 
-    	<forwardRate>0.005e-3</forwardRate>
+    	<forwardRate>0.0005e-3</forwardRate>
     	<reverseRate>3e-3</reverseRate>
     	<Q10>0.2</Q10>
     </Reaction>
@@ -344,7 +344,7 @@
         <Product  specieID="CKCamCa2"   power="3"         />
         <Product  specieID="CKpCamCa2"           />
 
-        <forwardRate> 1.0e-18 </forwardRate>
+        <forwardRate> 6.0e-18 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -355,7 +355,7 @@
         <Product  specieID="CKCamCa2"  power="2"         />
         <Product  specieID="CKpCamCa2"           />
 
-        <forwardRate> .5e-12 </forwardRate>
+        <forwardRate> 1.e-12 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -367,7 +367,7 @@
         <Product  specieID="CKCamCa2"           />
         <Product  specieID="CKpCamCa2" power="3"         />
 
-        <forwardRate> .55e-18 </forwardRate>
+        <forwardRate> 1.1e-18 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -391,7 +391,7 @@
 	<Reactant specieID="CK"/>
 	<Product specieID="CKCamCa4"/>
 
-	<forwardRate>0.04e-3</forwardRate>
+	<forwardRate>0.01e-3</forwardRate>
 	<reverseRate>3e-3</reverseRate>
 	<Q10>0.2</Q10>
     </Reaction>
@@ -401,7 +401,7 @@
         <Product  specieID="CKCamCa4"   power="3"         />
         <Product  specieID="CKpCamCa4"           />
 
-        <forwardRate> 23.0e-18 </forwardRate>
+        <forwardRate> 13.0e-18 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -412,7 +412,7 @@
         <Product  specieID="CKCamCa4"  power="2"         />
         <Product  specieID="CKpCamCa4"           />
 
-        <forwardRate> 4.0e-12 </forwardRate>
+        <forwardRate> 2.0e-12 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -424,7 +424,7 @@
         <Product  specieID="CKCamCa4"           />
         <Product  specieID="CKpCamCa4" power="3"         />
 
-        <forwardRate> 57.1e-18 </forwardRate>
+        <forwardRate> 27.1e-18 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -701,6 +701,16 @@
     <Q10>         0.2           </Q10>
 </Reaction> 
 
+<Reaction name = "EROutflux" id="EROutflux">
+    <Reactant specieID="S110"          n="3" />
+    <Reactant specieID="CaER"              />
+    <Product  specieID="S110"          n="3"     />	
+    <Product specieID="Ca"              />
+    
+    <forwardRate> 800e-7  </forwardRate>
+    <reverseRate> 0.0016468000000000001     </reverseRate>
+    <Q10>         0.2           </Q10>
+</Reaction> 
 
       <Reaction name = "ACh+m1R-AChm1R" id="ACh+m1R-AChm1R">
         <Reactant specieID="ACh"              />
@@ -708,7 +718,7 @@
         <Product  specieID="AChm1R"         />
 
         <forwardRate> 0.095e-06 </forwardRate>
-        <reverseRate> 2.5e-01      </reverseRate>
+        <reverseRate> 2.5e-02      </reverseRate>
     </Reaction>
 
 
@@ -738,7 +748,7 @@
         <Product specieID="AChm1RGq" />
 
         <forwardRate> 0.00396e-03 </forwardRate>
-        <reverseRate> 2.5e-01        </reverseRate>
+        <reverseRate> 2.5e-02        </reverseRate>
    </Reaction>
 
 
