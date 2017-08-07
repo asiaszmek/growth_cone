@@ -58,10 +58,10 @@
     <PicoSD specieID="Pip2"               value="9565" />
     <PicoSD specieID="Dag"                value="40"  />
     <PicoSD specieID="PIkinase"           value="280"  />
-    <PicoSD specieID="Ip3degPIk"          value="0"  />
-    <PicoSD specieID="Ip3degrad" value="0" />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degrad" value="0" />
     
-    <PicoSD specieID="AC8" value="20000.0"/>
+    <PicoSD specieID="AC8" value="25000.0"/>
     <PicoSD specieID="AC8CaMCa4" value="200.0"/>
     <PicoSD specieID="AC8CaMCa4ATP" value="200.0"/>
    
@@ -127,10 +127,10 @@
     <PicoSD specieID="Pip2"               value="9565" />
     <PicoSD specieID="Dag"                value="40"  />
     <PicoSD specieID="PIkinase"           value="280"  />
-    <PicoSD specieID="Ip3degPIk"          value="0"  />
-    <PicoSD specieID="Ip3degrad" value="0" />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degrad" value="0" />
     
-    <PicoSD specieID="AC8" value="20000.0"/>
+    <PicoSD specieID="AC8" value="25000.0"/>
     <PicoSD specieID="AC8CaMCa4" value="100.0"/>
     <PicoSD specieID="AC8CaMCa4ATP" value="200.0"/>
    
@@ -157,11 +157,11 @@
     <PicoSD specieID="Pip2"               value="19192" />
     <PicoSD specieID="Dag"                value="80"  />
     <PicoSD specieID="PIkinase"           value="560"  />
-    <PicoSD specieID="Ip3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
  
-    <PicoSD specieID="Ip3degrad" value="0" />
+    <PicoSD specieID="IP3degrad" value="0" />
     
-    <PicoSD specieID="AC8" value="20000.0"/>
+    <PicoSD specieID="AC8" value="25000.0"/>
     <PicoSD specieID="AC8CaMCa4" value="200.0"/>
     <PicoSD specieID="AC8CaMCa4ATP" value="200.0"/>
    
@@ -187,10 +187,10 @@
     <PicoSD specieID="Pip2"               value="19192" />
     <PicoSD specieID="Dag"                value="80"  />
     <PicoSD specieID="PIkinase"           value="560"  />
-    <PicoSD specieID="Ip3degPIk"          value="0"  />
-    <PicoSD specieID="Ip3degrad" value="0" />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degrad" value="0" />
     
-    <PicoSD specieID="AC8" value="20000.0"/>
+    <PicoSD specieID="AC8" value="25000.0"/>
     <PicoSD specieID="AC8CaMCa4" value="200.0"/>
     <PicoSD specieID="AC8CaMCa4ATP" value="200.0"/>
    
@@ -220,12 +220,12 @@
     <PicoSD specieID="Pip2"               value="19192" />
     <PicoSD specieID="Dag"                value="80"  />
     <PicoSD specieID="PIkinase"           value="560"  />
-    <PicoSD specieID="Ip3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
  
-    <PicoSD specieID="Ip3degrad" value="0" />
+    <PicoSD specieID="IP3degrad" value="0" />
 
     
-    <PicoSD specieID="AC8" value="20000.0"/>
+    <PicoSD specieID="AC8" value="25000.0"/>
     <PicoSD specieID="AC8CaMCa4" value="200.0"/>
     <PicoSD specieID="AC8CaMCa4ATP" value="200.0"/>
    
@@ -255,11 +255,11 @@
     <PicoSD specieID="Dag"                value="80"  />
    
     <PicoSD specieID="PIkinase"           value="560"  />
-    <PicoSD specieID="Ip3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
  
-    <PicoSD specieID="Ip3degrad" value="0" />
+    <PicoSD specieID="IP3degrad" value="0" />
     
-    <PicoSD specieID="AC8" value="20000.0"/>
+    <PicoSD specieID="AC8" value="25000.0"/>
     <PicoSD specieID="AC8CaMCa4" value="200.0"/>
     <PicoSD specieID="AC8CaMCa4ATP" value="200.0"/>
    
@@ -287,11 +287,11 @@
     <PicoSD specieID="Dag"                value="80"  />
    
     <PicoSD specieID="PIkinase"           value="560"  />
-    <PicoSD specieID="Ip3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
  
-    <PicoSD specieID="Ip3degrad" value="0" />
+    <PicoSD specieID="IP3degrad" value="0" />
     
-    <PicoSD specieID="AC8" value="20000.0"/>
+    <PicoSD specieID="AC8" value="25000.0"/>
     <PicoSD specieID="AC8CaMCa4" value="200.0"/>
     <PicoSD specieID="AC8CaMCa4ATP" value="200.0"/>
    
@@ -321,11 +321,11 @@
    
     
     <PicoSD specieID="PIkinase"           value="280"  />
-    <PicoSD specieID="Ip3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
  
-    <PicoSD specieID="Ip3degrad" value="0" />
+    <PicoSD specieID="IP3degrad" value="0" />
  
-    <PicoSD specieID="AC8" value="20000.0"/>
+    <PicoSD specieID="AC8" value="25000.0"/>
     <PicoSD specieID="AC8CaMCa4" value="200.0"/>
     <PicoSD specieID="AC8CaMCa4ATP" value="200.0"/>
    
