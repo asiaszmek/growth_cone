@@ -333,7 +333,7 @@
     	<Reactant specieID="CK"/>
     	<Product specieID="CKCamCa2"/>
 
-    	<forwardRate>0.005e-3</forwardRate>
+    	<forwardRate>0.0005e-3</forwardRate>
     	<reverseRate>3e-3</reverseRate>
     	<Q10>0.2</Q10>
     </Reaction>
@@ -343,7 +343,7 @@
         <Product  specieID="CKCamCa2"   power="3"         />
         <Product  specieID="CKpCamCa2"           />
 
-        <forwardRate> 1.0e-18 </forwardRate>
+        <forwardRate> 6.0e-18 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -354,7 +354,7 @@
         <Product  specieID="CKCamCa2"  power="2"         />
         <Product  specieID="CKpCamCa2"           />
 
-        <forwardRate> .5e-12 </forwardRate>
+        <forwardRate> 1.e-12 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -366,7 +366,7 @@
         <Product  specieID="CKCamCa2"           />
         <Product  specieID="CKpCamCa2" power="3"         />
 
-        <forwardRate> .55e-18 </forwardRate>
+        <forwardRate> 1.1e-18 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -390,7 +390,7 @@
 	<Reactant specieID="CK"/>
 	<Product specieID="CKCamCa4"/>
 
-	<forwardRate>0.04e-3</forwardRate>
+	<forwardRate>0.01e-3</forwardRate>
 	<reverseRate>3e-3</reverseRate>
 	<Q10>0.2</Q10>
     </Reaction>
@@ -400,7 +400,7 @@
         <Product  specieID="CKCamCa4"   power="3"         />
         <Product  specieID="CKpCamCa4"           />
 
-        <forwardRate> 23.0e-18 </forwardRate>
+        <forwardRate> 13.0e-18 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -411,7 +411,7 @@
         <Product  specieID="CKCamCa4"  power="2"         />
         <Product  specieID="CKpCamCa4"           />
 
-        <forwardRate> 4.0e-12 </forwardRate>
+        <forwardRate> 2.0e-12 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -423,7 +423,7 @@
         <Product  specieID="CKCamCa4"           />
         <Product  specieID="CKpCamCa4" power="3"         />
 
-        <forwardRate> 57.1e-18 </forwardRate>
+        <forwardRate> 27.1e-18 </forwardRate>
         <reverseRate> 0e-3     </reverseRate>
         <Q10>     2             </Q10>
     </Reaction>
@@ -658,7 +658,7 @@
         <Product  specieID="AChm1R"         />
 
         <forwardRate> 0.095e-06 </forwardRate>
-        <reverseRate> 2.5e-03      </reverseRate>
+        <reverseRate> 2.5e-01      </reverseRate>
     </Reaction>
 
 
@@ -688,7 +688,7 @@
         <Product specieID="AChm1RGq" />
 
         <forwardRate> 0.00396e-03 </forwardRate>
-        <reverseRate> 2.5e-03        </reverseRate>
+        <reverseRate> 2.5e-01        </reverseRate>
    </Reaction>
 
 
