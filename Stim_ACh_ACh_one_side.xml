@@ -5,35 +5,35 @@
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                8630            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <InjectionStim specieID="ACh"  injectionSite="fake2[0].pointI">
-    <onset>              2290000             </onset>
+    <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                2900            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <InjectionStim specieID="ACh"  injectionSite="fake3[2,5,7].pointI">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                8630            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <InjectionStim specieID="ACh"  injectionSite="fake4[1].pointI">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                2900            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <InjectionStim specieID="ACh"  injectionSite="fake5[0].pointI">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                2900            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <!--
@@ -41,35 +41,35 @@
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                150            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <InjectionStim specieID="Ca"  injectionSite="fake2[0].pointI">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                50            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <InjectionStim specieID="Ca"  injectionSite="fake3[2,5,7].pointI">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                150            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <InjectionStim specieID="Ca"  injectionSite="fake4[1].pointI">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                50            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 
 <InjectionStim specieID="Ca"  injectionSite="fake5[0].pointI">
     <onset>              25000             </onset>
     <duration>           2000              </duration>
     <rate>                50            </rate>
-    <end>               27000              </end>
+    <end>               85000              </end>
 </InjectionStim>
 -->
 
