@@ -4,7 +4,7 @@
 	 reaction data brought in from other files --> 
 
     <xi:include href="Rxn_IP3R_DYK.xml" />
-          <xi:include href="growth_cone_morph.xml" />
+          <xi:include href="growth_cone_morph_no_spines.xml" />
 	  <xi:include href="growth_cone_ic_dyk.xml" />       
           <!--<xi:include href="IO.xml" />-->
  	  <!--<xi:include href="Stim_ACh.xml" />-->
@@ -21,10 +21,10 @@ results (also, 3D may not work yet...)  -->
 
 
     <!-- run time for the calculation, milliseconds -->
-    <runtime>          800000         </runtime>
+    <runtime>          300000         </runtime>
 <!-- 100001 -->
     <!-- set the seed to get the same spines each time testing -->
-    <spineSeed>          1000          </spineSeed>
+    <spineSeed>          450          </spineSeed>
 
     <discretization>
 	<!-- default largest size for elements in bulk volumes (dendrites), microns -->	
