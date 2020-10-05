@@ -565,7 +565,7 @@
     
    <Reaction name = "CRTP_bind" id="CRTP_bind">
     <Reactant specieID="CRT"/>
-    <Reactant specieID="Ca"/>
+    <Reactant specieID="CaER"/>
     <Product specieID="CRTP"/>
     
     <forwardRate>1e-6</forwardRate>
