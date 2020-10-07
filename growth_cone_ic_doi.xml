@@ -52,7 +52,7 @@
     <PicoSD specieID="pmcaCa" value="1881.0"/>
     <PicoSD specieID="m1R"              value="150"  />
     <PicoSD specieID="m1RGq" value="50" />
-    <PicoSD specieID="Gqabg"              value="1950"  />
+    <PicoSD specieID="Gqabg"              value="10000"  />
     <PicoSD specieID="Plc"                value="200"  />
     <PicoSD specieID="Pip2"               value="9565" />
     <PicoSD specieID="Dag"                value="40"  />
