@@ -180,7 +180,31 @@
 	<Q10>0.2</Q10>
     </Reaction>
 
-  
+
+  <!-- Ca pump low affinity -    Ca + ncx <-> ncxCa -->
+    <Reaction name = "Ca_pump2a" id="Ca_pump2a">
+	<Reactant specieID="Ca"/>
+	<Reactant specieID="ncx"/>
+	<Product specieID="ncxCa"/>
+
+	<forwardRate>1.68e-5</forwardRate>
+	<reverseRate>0.0112</reverseRate>
+	<Q10>0.2</Q10>
+    </Reaction>
+
+<!-- Ca pump low affinity -    ncxCa <-> ncx + CaOut -->
+    <Reaction name = "Ca_pump2b" id="Ca_pump2b">
+	<Reactant specieID="ncxCa"/>
+	<Product specieID="ncx"/>
+	<Product specieID="CaOut"/>
+
+	<forwardRate>0.0056</forwardRate>
+	<reverseRate>0</reverseRate>
+	<Q10>0.2</Q10>
+    </Reaction>
+
+    
+    
   <!-- Ca leak -    CaOut + Leak <-> CaOutLeak -->
   <Reaction name = "Ca_leak" id="Ca_leaka">
     <Reactant specieID="CaOut"/>
