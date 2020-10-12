@@ -8,13 +8,12 @@
     <NanoMolarity specieID="CaMCa2" value="200.0"/>
     <NanoMolarity specieID="CaMCa4" value="0.0"/>
     <NanoMolarity specieID="CaM"           value="9000"     />
-    <NanoMolarity specieID="NgCaM" value="17992.0"/>
-    <NanoMolarity specieID="Ng" value="2139.0"/>
+    <NanoMolarity specieID="NgCaM" value="18000.0"/>
+    <NanoMolarity specieID="Ng" value="2000.0"/>
     
   </ConcentrationSet>
   <SurfaceDensitySet>
-  
-    <PicoSD specieID="CaOutLeak" value="4134.0"/>
+    <PicoSD specieID="CaOutLeak" value="3000.0"/>
     <PicoSD specieID="Leak" value="2000.0"/>
     <PicoSD specieID="ncx" value="5000"/>
     <PicoSD specieID="ncxCa" value="1282.0"/>
@@ -25,19 +24,16 @@
     <PicoSD specieID="PIkinase"           value="280"  />
     <PicoSD specieID="IP3degPIk"          value="0"  />
     <PicoSD specieID="IP3degrad" value="0" />
- 
   </SurfaceDensitySet>
   
   <ConcentrationSet region="ERmembrane11">
-    <NanoMolarity specieID="CaER"         value="6e5"     />
     <NanoMolarity       specieID="IP3R"      value="88"     />
-   <NanoMolarity specieID="CaERLeak" value="300"/>
+    <NanoMolarity specieID="CaERLeak" value="300"/>
     <NanoMolarity       specieID="SERCA"       value="1600"     />
     <NanoMolarity       specieID="CRTP"  value="4.245253445699103177e+06"     />
   </ConcentrationSet>
   
   <ConcentrationSet region="ERmembrane12">
-    <NanoMolarity specieID="CaER"         value="6e5"     />
     <NanoMolarity       specieID="IP3R"      value="88"     />
     <NanoMolarity specieID="CaERLeak" value="300"/>
     <NanoMolarity       specieID="SERCA"       value="1600"     />
@@ -45,7 +41,6 @@
  </ConcentrationSet>
 
  <ConcentrationSet region="ERmembrane21">
-   <NanoMolarity specieID="CaER"         value="6e5"     />
    <NanoMolarity       specieID="IP3R"      value="88"     />
    <NanoMolarity specieID="CaERLeak" value="500"/>
    <NanoMolarity       specieID="SERCA"       value="1600"     />
@@ -53,7 +48,6 @@
  </ConcentrationSet>
   
  <ConcentrationSet region="ERmembrane22">
-   <NanoMolarity specieID="CaER"         value="6e5"     />
    <NanoMolarity       specieID="IP3R"      value="88"     />
    <NanoMolarity specieID="CaERLeak" value="500"/>
    <NanoMolarity       specieID="SERCA"       value="1600"     />
@@ -64,17 +58,61 @@
   
   <SurfaceDensitySet region="ERmembrane11">
     <PicoSD specieID="CaOutInfluxER" value="80.0"/>
+    <PicoSD specieID="CaOutLeak" value="3000.0"/>
+    <PicoSD specieID="Leak" value="2000.0"/>
+    <PicoSD specieID="ncx" value="5000"/>
+    <PicoSD specieID="ncxCa" value="1282.0"/>
+    <PicoSD specieID="pmca" value="1500.0"/>
+    <PicoSD specieID="Plc"                value="200"  />
+    <PicoSD specieID="Pip2"               value="9565" />
+    <PicoSD specieID="Dag"                value="40"  />
+    <PicoSD specieID="PIkinase"           value="280"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degrad" value="0" />
   </SurfaceDensitySet>
 
   <SurfaceDensitySet region="ERmembrane12">
     <PicoSD specieID="CaOutInfluxER" value="80.0"/>
+    <PicoSD specieID="CaOutLeak" value="3000.0"/>
+    <PicoSD specieID="Leak" value="2000.0"/>
+    <PicoSD specieID="ncx" value="5000"/>
+    <PicoSD specieID="ncxCa" value="1282.0"/>
+    <PicoSD specieID="pmca" value="1500.0"/>
+    <PicoSD specieID="Plc"                value="200"  />
+    <PicoSD specieID="Pip2"               value="9565" />
+    <PicoSD specieID="Dag"                value="40"  />
+    <PicoSD specieID="PIkinase"           value="280"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degrad" value="0" />
   </SurfaceDensitySet>
 
   <SurfaceDensitySet region="ERmembrane21">
     <PicoSD specieID="CaOutInfluxER" value="80.0"/>
+    <PicoSD specieID="CaOutLeak" value="3000.0"/>
+    <PicoSD specieID="Leak" value="2000.0"/>
+    <PicoSD specieID="ncx" value="5000"/>
+    <PicoSD specieID="ncxCa" value="1282.0"/>
+    <PicoSD specieID="pmca" value="1500.0"/>
+    <PicoSD specieID="Plc"                value="200"  />
+    <PicoSD specieID="Pip2"               value="9565" />
+    <PicoSD specieID="Dag"                value="40"  />
+    <PicoSD specieID="PIkinase"           value="280"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degrad" value="0" />
   </SurfaceDensitySet>
   
   <SurfaceDensitySet region="ERmembrane22">
     <PicoSD specieID="CaOutInfluxER" value="80.0"/>
+    <PicoSD specieID="CaOutLeak" value="3000.0"/>
+    <PicoSD specieID="Leak" value="2000.0"/>
+    <PicoSD specieID="ncx" value="5000"/>
+    <PicoSD specieID="ncxCa" value="1282.0"/>
+    <PicoSD specieID="pmca" value="1500.0"/>
+    <PicoSD specieID="Plc"                value="200"  />
+    <PicoSD specieID="Pip2"               value="9565" />
+    <PicoSD specieID="Dag"                value="40"  />
+    <PicoSD specieID="PIkinase"           value="280"  />
+    <PicoSD specieID="IP3degPIk"          value="0"  />
+    <PicoSD specieID="IP3degrad" value="0" />
   </SurfaceDensitySet>
 </InitialConditions>
