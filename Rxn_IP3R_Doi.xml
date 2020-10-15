@@ -920,7 +920,7 @@
         <Product specieID="I1"/>
 	<Product specieID="PP2BCaMCa4"/>
 
-	<forwardRate>0.055</forwardRate>
+	<forwardRate>0.015</forwardRate>
 	<reverseRate>0</reverseRate>
 	<Q10>0.2</Q10>
     </Reaction>
@@ -943,7 +943,7 @@
         <Product specieID="PP1"/>
 	<Product specieID="PP2BCaMCa4"/>
 
-	<forwardRate>0.055</forwardRate>
+	<forwardRate>0.015</forwardRate>
 	<reverseRate>0</reverseRate>
 	<Q10>0.2</Q10>
     </Reaction>
