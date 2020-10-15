@@ -25,7 +25,7 @@
     <NanoMolarity specieID="PP2B" value="0.0"/>
 
     <NanoMolarity specieID="PKAc" value="0.0"/> <!--PP1 conc 1.62 muM-->
-    <NanoMolarity specieID="I1" value="632.0"/> <!-- I1 conc 1.01 muM -->
+    <NanoMolarity specieID="I1" value="1632.0"/> <!-- I1 conc 1.01 muM -->
     <NanoMolarity specieID="I1PKAc" value="0.0"/>
     <NanoMolarity specieID="Ip35" value="9.0"/>
     <NanoMolarity specieID="PP1" value="1022.0"/>
