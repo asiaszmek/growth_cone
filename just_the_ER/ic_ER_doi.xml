@@ -27,28 +27,28 @@
   <ConcentrationSet region="ERmembrane11">
     <NanoMolarity       specieID="IP3R"      value="88"     />
     <NanoMolarity specieID="CaERLeak" value="300"/>
-    <NanoMolarity       specieID="SERCA"       value="1200"     />
+    <NanoMolarity       specieID="SERCA"       value="1000"     />
     <NanoMolarity       specieID="CRTP"  value="4.245253445699103177e+06"     />
   </ConcentrationSet>
   
   <ConcentrationSet region="ERmembrane12">
     <NanoMolarity       specieID="IP3R"      value="88"     />
     <NanoMolarity specieID="CaERLeak" value="300"/>
-    <NanoMolarity       specieID="SERCA"       value="1200"     />
+    <NanoMolarity       specieID="SERCA"       value="1000"     />
     <NanoMolarity       specieID="CRTP"  value="4.245253445699103177e+06"     />
  </ConcentrationSet>
 
  <ConcentrationSet region="ERmembrane21">
    <NanoMolarity       specieID="IP3R"      value="88"     />
    <NanoMolarity specieID="CaERLeak" value="500"/>
-   <NanoMolarity       specieID="SERCA"       value="1200"     />
+   <NanoMolarity       specieID="SERCA"       value="1000"     />
    <NanoMolarity       specieID="CRTP"  value="4.245253445699103177e+06"     />
  </ConcentrationSet>
   
  <ConcentrationSet region="ERmembrane22">
    <NanoMolarity       specieID="IP3R"      value="88"     />
    <NanoMolarity specieID="CaERLeak" value="500"/>
-   <NanoMolarity       specieID="SERCA"       value="1200"     />
+   <NanoMolarity       specieID="SERCA"       value="1000"     />
    <NanoMolarity       specieID="CRTP"  value="4.245253445699103177e+06"     />
  </ConcentrationSet>
  
