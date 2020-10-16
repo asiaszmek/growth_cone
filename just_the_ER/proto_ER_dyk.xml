@@ -5,7 +5,7 @@
   
   <xi:include href="Rxn_ER_IP3R_DYK.xml" />
   <xi:include href="../growth_cone_morph_no_spines.xml" />
-  <xi:include href="ic_ER_doi.xml" />       
+  <xi:include href="ic_ER_dyk.xml" />       
   
   <!--2D means the morphology is interpreted like a flatworm, 3D for
       roundworms. The 2D case is good for testing as it is eas/Stry
