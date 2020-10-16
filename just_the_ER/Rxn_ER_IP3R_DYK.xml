@@ -1,9 +1,7 @@
 <ReactionScheme>
 
-  <!-- IP3R Model based on Fraiman D, Dawson SP (2004) A model of IP3 receptor with a luminal
-       calcium binding site: stochastic simulations and analysis. Cell
-       Calcium 35: 403-413, 2004 -->
-  
+  <!-- IP3R Model based on de Young, Keizer  1992  -->
+  <!-- De Young GW, Keizer J. A single-pool inositol 1,4,5-trisphosphate-receptor-based model for agonist-stimulated oscillations in Ca2+ concentration. Proc Natl Acad Sci U S A. 1992 Oct 15;89(20):9895-9. doi: 10.1073/pnas.89.20.9895. PMID: 1329108; PMCID: PMC50240.-->
   <!-- Receptor States:
        IP3R  state
        IP3RO  state
