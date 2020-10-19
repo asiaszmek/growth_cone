@@ -74,8 +74,9 @@
   </SurfaceDensitySet>
   
   <ConcentrationSet region="ERmembrane11">
+    <NanoMolarity       specieID="IP3R"      value="350"     />
+    <NanoMolarity specieID="CaERLeak" value="500"/>
     <NanoMolarity specieID="CaER"         value="6e5"     />
-    <NanoMolarity       specieID="S000"      value="352"     />
    <NanoMolarity specieID="CaERLeak" value="4000"/>
     <NanoMolarity       specieID="SERCACa2"       value="1000"     />
     <NanoMolarity       specieID="SERCA"       value="1000"     />
@@ -84,9 +85,9 @@
   </ConcentrationSet>
   
   <ConcentrationSet region="ERmembrane12">
+    <NanoMolarity       specieID="IP3R"      value="350"     />
+    <NanoMolarity specieID="CaERLeak" value="500"/>
     <NanoMolarity specieID="CaER"         value="6e5"     />
-    <NanoMolarity       specieID="S000"      value="352"     />
-   <NanoMolarity specieID="CaERLeak" value="4000"/>
     <NanoMolarity       specieID="SERCACa2"       value="1000"     />
     <NanoMolarity       specieID="SERCA"       value="1000"     />
     <NanoMolarity       specieID="CRT"  value="4.5e+06"     />
@@ -94,9 +95,9 @@
  </ConcentrationSet>
 
  <ConcentrationSet region="ERmembrane21">
+   <NanoMolarity       specieID="IP3R"      value="350"     />
+   <NanoMolarity specieID="CaERLeak" value="500"/>
    <NanoMolarity specieID="CaER"         value="6e5"     />
-   <NanoMolarity       specieID="S000"      value="352"     />
-  <NanoMolarity specieID="CaERLeak" value="4000"/>
    <NanoMolarity       specieID="SERCACa2"       value="1000"     />
    <NanoMolarity       specieID="SERCA"       value="1000"     />
    <NanoMolarity       specieID="CRT"  value="4.5e+06"     />
@@ -104,9 +105,9 @@
  </ConcentrationSet>
   
  <ConcentrationSet region="ERmembrane22">
+   <NanoMolarity       specieID="IP3R"      value="350"     />
+   <NanoMolarity specieID="CaERLeak" value="500"/>
    <NanoMolarity specieID="CaER"         value="6e5"     />
-   <NanoMolarity       specieID="S000"      value="352"     />
-  <NanoMolarity specieID="CaERLeak" value="4000"/>
    <NanoMolarity       specieID="SERCACa2"       value="1000"     />
    <NanoMolarity       specieID="SERCA"       value="1000"     />
    <NanoMolarity       specieID="CRT"  value="4.5e+06"     />

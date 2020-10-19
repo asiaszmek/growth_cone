@@ -76,7 +76,7 @@
 <Specie name="Epac1cAMP" id="Epac1cAMP" kdiff="5.61" kdiffunit="mu2/s"/>
 <Specie name="cAMP" id="cAMP" kdiff="86.4" kdiffunit="mu2/s"/>
     
-   <Specie name="S000"      id="S000"     kdiff="0"    kdiffunit="mu2/s"/>
+   <Specie name="IP3R"      id="IP3R"     kdiff="0"    kdiffunit="mu2/s"/>
   <Specie name="S100"      id="S100"     kdiff="0"    kdiffunit="mu2/s"/>
   <Specie name="S110"      id="S110"     kdiff="0"    kdiffunit="mu2/s"/>
   <Specie name="S101"      id="S101"     kdiff="0"    kdiffunit="mu2/s"/>
@@ -481,8 +481,8 @@
     <reverseRate>0.001</reverseRate>
     </Reaction>
 
-     <Reaction name = "S000+IP3->S100" id="S000+IP3->S100">
-    <Reactant specieID="S000"           />
+     <Reaction name = "IP3R+IP3->S100" id="IP3R+IP3->S100">
+    <Reactant specieID="IP3R"           />
     <Reactant specieID="IP3"              />
     <Product  specieID="S100"               />	
     
@@ -511,8 +511,8 @@
     <Q10>         0.2           </Q10>
   </Reaction>
    
-<Reaction name = "S000+Ca->S001" id="S000+Ca->S001">
-    <Reactant specieID="S000"           />
+<Reaction name = "IP3R+Ca->S001" id="IP3R+Ca->S001">
+    <Reactant specieID="IP3R"           />
     <Reactant specieID="Ca"              />
     <Product  specieID="S001"               />	
     
@@ -567,8 +567,8 @@
 <!-- -->
 
 
-<Reaction name = "S000+Ca->S010" id="S000+Ca->S010">
-    <Reactant specieID="S000"           />
+<Reaction name = "IP3R+Ca->S010" id="IP3R+Ca->S010">
+    <Reactant specieID="IP3R"           />
     <Reactant specieID="Ca"              />
     <Product  specieID="S010"               />	
     
